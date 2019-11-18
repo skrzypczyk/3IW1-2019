@@ -2,9 +2,6 @@
 
 require __DIR__ . '/utils.php';
 
-define('CONTROLLERS_PATH', __DIR__ . '/controllers');
-define('CONTROLLER_PATTERN_NAME', '{name}Controller.class.php');
-define('ACTION_PATTERN_NAME', '{name}Action');
 define('ROUTES_FILE_PATH', __DIR__ . '/routes.yml');
 
 $uri = $_SERVER["REQUEST_URI"];
