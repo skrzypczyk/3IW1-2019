@@ -15,7 +15,7 @@ if (!array_key_exists($uri, $routes))
 
 $route = $routes[$uri];
 
-$action			= getActionName($route['action']);
+$action		= getActionName($route['action']);
 $controller 	= getControllerName($route['controller']);
 $pathController = getControllerPath($controller);
 
