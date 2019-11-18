@@ -26,7 +26,7 @@ if (!file_exists($pathController))
 }
 
 require $pathController;
-			
+
 $class = str_replace('.class.php', '', $controller);
 
 // condition : si la classe est inexistante
